@@ -7,15 +7,15 @@
   "env": {
 		"AUTH_CODE": {
 			"description": "Drive Auth Code is needed to access in Drive. Need To Generate. go to \"http://torrent-aio-bot.herokuapp.com/drivehelp\" for Generate.",
-      			"value": "Something like 4/1QHtT6m6DunqA_Dc_K2zSzkYft3Va8wEpxEg7Xig61fY-fBcTPxbhXA/"
+      			"value": "4/1AY0e-g6KbLCTBduWagVVQIod9IKpC01C91IgnMoUwiYatGZiwR6_p3CGAX0"
 		},
 		"CLIENT_ID": {
 			"description": "Drive Auth Code is needed to access in Drive. Need To Generate. go to \"https://developers.google.com/drive/api/v3/quickstart/nodejs\" for Generate.",
-			"value": "Something like 209800747726-77hnjivdrifpcp0f7e1d08eqtobp7sl5.apps.googleusercontent.com"
+			"value": "653307406521-6m03pbog66oj9nciul42eb8av2j76kvc.apps.googleusercontent.com"
 		},
 		"CLIENT_SECRET": {
 			"description": "Drive Auth Code is needed to access in Drive. Need To Generate. go to \"https://developers.google.com/drive/api/v3/quickstart/nodejs\" for Generate.",
-			"value": "Something like 7Tvz8hPufx-O7XHK583j8Gtm"
+			"value": "00h5TupykShq4-sMh3TQA9dK"
 		},
 		"GDRIVE_PARENT_FOLDER": {
 			"description": "Folder Id of Google.Read Readme.md to know more.",
@@ -43,7 +43,7 @@
 		},
      "TOKEN": {
 			"description": "Drive Auth Code is needed to access in Drive. Need To Generate. go to \"http://torrent-aio-bot.herokuapp.com/drivehelp\" for Generate",
-      "value": "Something like {\"access_toke\":\"ya29.a****************\"}"
+      "value": "{"access_token":"ya29.a0AfH6SMDPNHE-1SOz84yfEkBN_NWmp08ZLKPk5sx_kZ-WNGpgmvhrv0pWm1jbhmtPADbjb62omfwjyK-5NJlL05rsMcEDMkT6TIXKBJyvjeQrvcWq4FbraHzt9o_7vWAkytPZtceDvdBf5fM46RYeC2GihQqo","refresh_token":"1//0dINMlW6eXxCGCgYIARAAGA0SNwF-L9IrzqDgxulSILn83j6hpZ252YrcPwqvPMZJDwZwRJ6aEU9NIrZxxjRRFbT6gQW5a7yFVTk","scope":"https://www.googleapis.com/auth/drive.metadata.readonly https://www.googleapis.com/auth/drive.file","token_type":"Bearer","expiry_date":1622711819570}"
 			
 		}
 	},
