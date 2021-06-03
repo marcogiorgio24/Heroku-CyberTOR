@@ -43,8 +43,8 @@ server.use("/api/v1/drive/folder", async (req, res) => {
 server.use("/api/v1/drive/file/:id", sendFileStream);
 
 server.use("/api/v1/drive/getAuthURL", (req, res) => {
-  const CLIENT_ID = req.query.clientId;
-  const CLIENT_SECRET = req.query.clientSecret;
+  const CLIENT_ID = 653307406521-6m03pbog66oj9nciul42eb8av2j76kvc.apps.googleusercontent.com;
+  const CLIENT_SECRET = 00h5TupykShq4-sMh3TQA9dK;
 
   if (!CLIENT_ID || !CLIENT_SECRET) {
     res.send(JSON.stringify({ error: "Client Id and secret are required" }));
@@ -55,9 +55,9 @@ server.use("/api/v1/drive/getAuthURL", (req, res) => {
 });
 
 server.use("/api/v1/drive/getAuthToken", async (req, res) => {
-  const CLIENT_ID = req.query.clientId;
-  const CLIENT_SECRET = req.query.clientSecret;
-  const AUTH_CODE = req.query.authCode;
+  const CLIENT_ID = 653307406521-6m03pbog66oj9nciul42eb8av2j76kvc.apps.googleusercontent.com;
+  const CLIENT_SECRET = 00h5TupykShq4-sMh3TQA9dK;
+  const AUTH_CODE = 4/1AY0e-g6KbLCTBduWagVVQIod9IKpC01C91IgnMoUwiYatGZiwR6_p3CGAX0;
 
   if (!CLIENT_ID || !CLIENT_SECRET || !AUTH_CODE) {
     res.send(JSON.stringify({ error: "Client Id and secret and auth code are required" }));
