@@ -19,7 +19,7 @@
 		},
 		"GDRIVE_PARENT_FOLDER": {
 			"description": "Folder Id of Google.Read Readme.md to know more.",
-			"value": "Something like 7Tvz8hPufx-O7XHK583j8Gtm"
+			"value": "0AMUDOrn3ZuUrUk9PVA"
 		},
 		"LIMETORRENT_SITE": {
 			"description": "Just Dont Change it",
@@ -33,12 +33,12 @@
 		},
 		"SEARCH_SITE": {
 			"description": "Full link of your Heroku App with the final /",
-      "value": "https://APPNAME.herokuapp.com/"
+      "value": "https://marcogiorgio24-heroku-cybertor.zeet.app/"
 			
 		},
     "SITE": {
 			"description": "Full link of your Heroku App with the /",
-      "value": "https://APPNAME.herokuapp.com/"
+      "value": "https://marcogiorgio24-heroku-cybertor.zeet.app/"
 			
 		},
      "TOKEN": {
